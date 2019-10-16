@@ -1,0 +1,32 @@
+source /home/student/Labo2/Labo2.sim/sim_1/behav/xsim/xsim.dir/ADD_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/student/Labo2/Labo2.sim/sim_1/behav/xsim/xsim.dir/ADD_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Oct 15 14:56:23 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct 15 14:56:23 2019...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 6587.992 ; gain = 0.000 ; free physical = 2638 ; free virtual = 13387
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/student/Labo2/Labo2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ADD_tb_behav -key {Behavioral:sim_1:Functional:ADD_tb} -tclbatch {ADD_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source ADD_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+SUCCESS: ADD without carry.
+SUCCESS: ADD+carry_in without carry.
+SUCCESS: ADD with carry.
+SUCCESS: ADD+carry_in with carry.
+Note: SIMULATION ENDED
+Time: 66 ns  Iteration: 0  Process: /ADD_tb/STIM_PROC  File: /home/student/Labo2/Labo2.srcs/sim_1/imports/sources/ADD_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ADD_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 6667.742 ; gain = 79.750 ; free physical = 2591 ; free virtual = 13351

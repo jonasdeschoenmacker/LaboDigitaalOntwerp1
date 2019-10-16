@@ -1,0 +1,21 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+SUCCESS: NOT.
+SUCCESS: AND.
+SUCCESS: OR.
+SUCCESS: XOR.
+SUCCESS: ADD 1.
+SUCCESS: ADD 2.
+SUCCESS: ADD 3.
+SUCCESS: SUB 1.
+SUCCESS: SUB 2.
+SUCCESS: CMP equal.
+SUCCESS: CMP smaller.
+SUCCESS: CMP greater.
+SUCCESS: RR 1.
+SUCCESS: RR 2.
+SUCCESS: RL 1.
+SUCCESS: RL 2.
+SUCCESS: SWAP.
+Note: SIMULATION ENDED
+Time: 207 ns  Iteration: 0  Process: /ALU_tb/STIM_PROC  File: /home/student/Labo2/Labo2.srcs/sim_1/imports/sources/ALU_tb.vhd

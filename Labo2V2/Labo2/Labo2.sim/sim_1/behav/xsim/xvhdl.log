@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/student/Labo2/Labo2.srcs/sources_1/imports/ALU8bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU8bit
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/student/Labo2/Labo2.srcs/sources_1/imports/sources/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top
